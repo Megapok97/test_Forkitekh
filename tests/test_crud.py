@@ -3,7 +3,7 @@ from app import crud
 from app.models import Request
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
-from datetime import datetime, UTC
+from datetime import datetime
 
 
 @pytest.mark.anyio

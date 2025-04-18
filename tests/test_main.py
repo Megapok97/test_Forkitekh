@@ -1,6 +1,4 @@
 import pytest
-from fastapi.testclient import TestClient
-from app import schemas
 from app.models import Request
 from sqlalchemy import select
 from unittest.mock import AsyncMock
